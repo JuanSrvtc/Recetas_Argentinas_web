@@ -1,0 +1,380 @@
+:root{
+    --back:#fea100af;
+    --rojo: #ef352bca;
+    --rojo2: #ef352ba2;
+    --verde:#c3d5008e;
+}
+
+body{
+    color: #fff;
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(163deg, rgb(251, 147, 27) 0%, rgba(148, 233, 166, 0.678) 100%);
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    margin: 1em .2em 1em;
+    border-radius: 50px;
+    padding: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:var(--rojo);
+}
+
+nav a{
+    color: #fff;
+    margin-left: 10%;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    transform:scale(1.1);
+}
+
+h1{
+    font-size: 3.5em;
+    text-align: start;
+    text-shadow: 2px 2px 2px #000000;
+    margin-bottom: 5%;
+}
+
+.logo{
+    width: 4em;
+    border-radius: 50px;
+}
+
+h2, h3{
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+}
+
+
+li, a{
+    text-shadow: rgba(0, 0, 0, 0.399) 0.1em 0em 0.1em;
+}
+
+.recetaSemana{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.recetaTitulo{
+    background-color: #9DAF18;
+    padding: 2%;
+    text-align: center;
+}
+
+.imgReceta{
+    width: 45rem;
+}
+
+.hero{
+    color: #fff;
+    padding: 2%;
+    padding-bottom: 10%;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;	
+    background-attachment: fixed;
+    background-image: url(./assets/hero.jpg);
+    font-weight: bold;
+    background-color:var(--back);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero p{
+    font-size: 1.5em;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+.seccion{
+    color: #fff;
+    font-weight: bold;
+    background-color:var(--back);
+    padding: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tituloConChef{
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tituloConChef img{
+    height: 10em;
+}
+
+.seccion h2{
+    font-size: 2.5em;
+}
+
+.seccion h4, li{
+    font-size: 1.2em;
+}
+
+.dificultad{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    text-shadow: 1px 1px 1px #595757;
+}
+
+.dificultad img{
+    width: 2em;
+    margin-top: 10px;
+}
+
+.recetaTitulo p{
+    font-size: 1.1em;
+    text-shadow: 1px 1px 1px #595757;
+}
+
+.dificultad h4{
+    text-decoration: none;
+}
+
+.dificultad h5{
+    margin-top: 1px;
+}
+
+.col{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.col h4{
+    text-shadow: rgba(0, 0, 0, 0.399) 0.1em 0em 0.1em;
+    font-size: 2rem;
+    margin-bottom: -1%;
+} 
+
+.botones{
+    margin-top: 2%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn1{
+    border: 1px solid;
+    color: #fff;
+    font-weight: bold;
+    padding: .6rem;
+    border-radius: 14px;
+    background-color:var(--rojo); 
+}
+
+.btn1:hover{
+    background: var(--rojo2);
+    color: var(--verde);
+}
+
+.icoplato{
+    width: 6em;
+}
+
+.btn2{
+    border: 1px solid;
+    color: #fff;
+    font-weight: bold;
+    padding: .6rem;
+    border-radius: 14px;
+    background-color:var(--rojo);
+}
+
+.btn2:hover{
+    background: var(--rojo2);
+    color: var(--verde);
+}
+
+.otrasRecetas{
+    padding: 2%;
+    text-align: center;
+    background-color: #97C996;
+}
+
+.otrasRecetas h2{
+    margin-bottom: 3%;
+    color: #fff;
+    justify-content: center;
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 166, 0, 0.824);
+    border: 1px solid #9DAF18;
+    margin: 0px 10px 0px -5px;
+    border-radius: 24px;
+    text-align: start;
+    padding: 1%;
+}
+
+.card img{
+    width: 15em;
+    border-radius: 23px;    
+}
+
+.card a{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .5rem;
+    border-radius: 14px;
+    background-color:var(--rojo2);
+    border: 1px white solid;
+}
+
+.card a:hover{
+    color:var(--verde);
+    background: var(--rojo2);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+footer{
+    text-align: center;
+    padding: 1%;
+    color: #fff;
+    background-color:var(--rojo);
+}
+
+footer a{
+    color: #fff;
+    font-size: .9em;
+}
+
+footer a:hover{
+    color:var(--verde);
+    text-shadow: none;
+}
+
+@keyframes min_mov {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+}  
+
+.minion1 {
+      animation-name: min_mov;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;	
+      margin-bottom: -3px;
+}
+
+.minion2 {
+    animation-name: min_mov;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;	
+    margin-bottom: -3px;
+}
+
+.hoov_icon img:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 10px 10px #ff6b02;
+    -webkit-box-shadow: 0px 0px 10px 10px #ff6a00;
+    transform: scale(1.1); 
+}
+
+.ico-ins{
+    margin: 1%;
+}
+
+.ico-x{
+    border-radius: 14px;
+    margin: 1%;
+}
+
+.ico-yt{
+    margin: 1%;
+}
+
+.tituloComentario h4{
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.399) 0.1em 0em 0.1em;
+    font-size: 2rem;
+} 
+
+.contacto{
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto img{
+    width: 20em;
+}
+
+/*Form*/
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	width:300px;
+	padding:20px;
+	background-color: #97C996;
+}
+
+form input[type="text"],
+form input[type="email"]{
+    width:282px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:10px 0;
+	display:inline-block;
+}
+
+textarea{
+    width:100%;
+    height:120px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;			
+    margin:8px 0;
+    resize:none;
+    display:block;
+}
+.contacto button{
+    margin:15px 0;
+    width:50%;
+    border: 1px solid;
+    color: #fff;
+    font-weight: bold;
+    padding: .6rem;
+    border-radius: 14px;
+    background-color:var(--rojo);
+}
+
+.contacto button:hover{
+    background: var(--rojo2);
+    color: var(--verde);
+}
+
